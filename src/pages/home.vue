@@ -4,14 +4,7 @@
     style="margin: auto;"
     class="grey lighten-3"
   >
-    <v-toolbar color="light-blue">
-      <v-toolbar-side-icon></v-toolbar-side-icon>
-      <v-toolbar-title class="white--text">Vue tutorials</v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn icon>
-        <v-icon>search</v-icon>
-      </v-btn>
-    </v-toolbar>
+    <headermain></headermain>
     <v-container
       fluid
       style="min-height: 0;"
@@ -31,14 +24,6 @@
         </v-flex>
         
 
-        <v-flex xs6 sm3>
-          <v-card color="blue-grey darken-2" class="white--text">
-            <v-card-title primary-title>
-              <div class="headline">Declarative rendering</div>
-            </v-card-title>
-          </v-card>
-        </v-flex>
-
       </v-layout>
 
     
@@ -49,7 +34,7 @@
 
 <script>
 export default {
-  name: 'Home page',
+  name: 'home-page',
   data () {
     return {
       msg: ''

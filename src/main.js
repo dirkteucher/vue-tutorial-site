@@ -6,6 +6,11 @@ import router from './router/router.js';
 Vue.use(router);
 
 
+// Components
+import headermain from './components/header.vue'
+Vue.component('headermain', headermain);
+
+
 // Vue Material design
 import Vuetify from 'vuetify'
 Vue.use(Vuetify)
