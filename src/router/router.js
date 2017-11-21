@@ -6,7 +6,7 @@ Vue.use(Router)
 
 // Vue pages
 import home from '../pages/home.vue'
-import secondPage from '../pages/secondPage.vue'
+import declarativeRendering from '../pages/declarative-rendering.vue'
 
 export default new Router({
   routes: [
@@ -16,9 +16,9 @@ export default new Router({
       component: home
     },
     {
-      path: '/secondPage',
-      name: 'secondPage',
-      component: secondPage
+      path: '/declarative-rendering',
+      name: 'declarativeRendering',
+      component: declarativeRendering
     }
   ]
 })
