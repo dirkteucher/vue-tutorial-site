@@ -5,7 +5,7 @@
 	class="grey lighten-3"
 	>
 	<v-toolbar color="light-blue">
-		<v-toolbar-side-icon></v-toolbar-side-icon>
+		<!-- <v-toolbar-side-icon class="white--text"></v-toolbar-side-icon> -->
 		<v-toolbar-title class="white--text">Vue tutorials</v-toolbar-title>
 		<v-spacer></v-spacer>
 		<router-link to="/">
