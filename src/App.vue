@@ -27,13 +27,16 @@ h1, h2 {
 	font-weight: normal;
 }
 
+h3 {
+	margin: 20px 0;;
+}
+
 ul {
 	list-style-type: none;
 	padding: 0;
 }
 
 li {
-	display: inline-block;
 	margin: 0 10px;
 }
 

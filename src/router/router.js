@@ -7,6 +7,7 @@ Vue.use(Router)
 // Vue pages
 import home from '../pages/home.vue'
 import declarativeRendering from '../pages/declarative-rendering.vue'
+import loops from '../pages/loops.vue'
 
 export default new Router({
   routes: [
@@ -19,6 +20,11 @@ export default new Router({
       path: '/declarative-rendering',
       name: 'declarativeRendering',
       component: declarativeRendering
+    },
+    {
+      path: '/loops',
+      name: 'loops',
+      component: loops
     }
   ]
 })
