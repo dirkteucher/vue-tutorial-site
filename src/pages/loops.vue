@@ -40,7 +40,7 @@
 				<v-flex xs5  >
 					<div>
 						<a href="https://github.com/dirkteucher/vue-tutorial-site/blob/master/src/pages/loops.vue" target="_blank">
-							<v-btn color="blue white--text">CODE - loops.vue</v-btn>
+							<v-btn color="green white--text">Get CODE - loops.vue</v-btn>
 						</a>
 
 					</div>

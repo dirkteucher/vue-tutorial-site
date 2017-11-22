@@ -19,7 +19,7 @@
 				<v-flex xs5  >
 					<div>
 						<a href="https://github.com/dirkteucher/vue-tutorial-site/blob/master/src/pages/declarative-rendering.vue" target="_blank">
-							<v-btn color="blue white--text">declarative-rendering.vue</v-btn>
+							<v-btn color="green white--text">Get Code: declarative-rendering.vue</v-btn>
 						</a>
 
 					</div>

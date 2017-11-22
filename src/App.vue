@@ -16,6 +16,7 @@ export default {
 </script>
 
 <style lang="scss">
+/*TODO Refactore out all CSS into a separate main.css file*/
 #app {
 	font-family: 'Avenir', Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -42,6 +43,14 @@ li {
 
 a {
 	color: #fff;
+}
+
+p {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.82);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
 }
 
 </style>
