@@ -1,6 +1,8 @@
 <template>
   <div>
-		<headermain></headermain>
+		<headermain>
+				<span slot="headerTitle">Vue Tutorials - Loops</span>
+		</headermain>
 
 		<v-container grid-list-md >
             <!-- Example 1 -->

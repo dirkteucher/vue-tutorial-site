@@ -11,6 +11,7 @@ import loops from '../pages/loops.vue'
 import bindingAttributesClassnames from '../pages/binding-attributes-classnames.vue'
 import computedProperties from '../pages/computed-properties.vue'
 import slots from '../pages/slots.vue'
+import axios from '../pages/axios.vue'
 
 export default new Router({
   routes: [
@@ -43,6 +44,11 @@ export default new Router({
       path: '/slots',
       name: 'slots',
       component: slots
+    },
+    {
+      path: '/axios',
+      name: 'axios',
+      component: axios
     }
   ]
 })

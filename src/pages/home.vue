@@ -4,7 +4,9 @@
     style="margin: auto;"
     class="grey lighten-3"
   >
-    <headermain></headermain>
+    		<headermain>
+				  <span slot="headerTitle">Vue Tutorials</span>
+		    </headermain>
     <v-container
       fluid
       style="min-height: 0;"
@@ -73,6 +75,16 @@
           </router-link>
         </v-flex>
 
+
+        <v-flex xs6 sm3>
+          <router-link to="/axios">
+            <v-card color="blue-grey darken-2" class="white--text">
+              <v-card-title primary-title>
+                <div class="headline">Axios/Ajax</div>
+              </v-card-title>
+            </v-card>
+          </router-link>
+        </v-flex>
 
 
       </v-layout>

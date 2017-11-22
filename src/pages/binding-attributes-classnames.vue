@@ -1,11 +1,12 @@
 <template>
   <div>
-		<headermain></headermain>
+		<headermain>
+				<span slot="headerTitle">Vue Tutorials - Binding attributes</span>
+		</headermain>
 
 		<v-container grid-list-md >
 			<v-layout row wrap>
 				<v-flex xs12>
-					<h1> Binding Attributes</h1>
                     <h3>Bind the title of the button with v-bind</h3>
 					<v-btn 
                         color="blue white--text" 

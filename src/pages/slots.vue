@@ -1,12 +1,13 @@
 <template>
   <div>
-		<headermain></headermain>
+		<headermain>
+				<span slot="headerTitle">Vue Tutorials - Slots</span>
+		</headermain>
 
 		<v-container grid-list-md >
 
 			<v-layout row wrap>
 				<v-flex xs8>
-					<h1> Slots </h1>
 					<p class="blue-grey darken-2 white--text" >
 						Here we will import the header component and slot custom information into it.
 					</p>

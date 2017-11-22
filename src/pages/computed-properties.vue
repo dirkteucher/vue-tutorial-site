@@ -1,6 +1,8 @@
 <template>
   <div>
-		<headermain></headermain>
+		<headermain>
+				<span slot="headerTitle">Vue Tutorials - Computed Properties</span>
+		</headermain>
 
 		<v-container grid-list-md >
 			<v-layout row wrap>
