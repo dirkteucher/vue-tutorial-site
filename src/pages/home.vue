@@ -33,10 +33,49 @@
             </v-card>
           </router-link>
         </v-flex>
+        
+
+        <v-flex xs6 sm3>
+          <router-link to="/bindingAttributesClassnames">
+            <v-card color="blue-grey darken-2" class="white--text">
+              <v-card-title primary-title>
+                <div class="headline">Binding attributes and class names dynamically</div>
+              </v-card-title>
+            </v-card>
+          </router-link>
+        </v-flex>
+
+
+
+        <v-flex xs6 sm3>
+          <router-link to="/computedProperties">
+            <v-card color="blue-grey darken-2" class="white--text">
+              <v-card-title primary-title>
+                <div class="headline">Computed Properties</div>
+              </v-card-title>
+            </v-card>
+          </router-link>
+        </v-flex>
 
       </v-layout>
 
-    
+
+
+      <v-layout row wrap>
+
+        <v-flex xs6 sm3>
+          <router-link to="/slots">
+            <v-card color="blue-grey darken-2" class="white--text">
+              <v-card-title primary-title>
+                <div class="headline">Slots</div>
+              </v-card-title>
+            </v-card>
+          </router-link>
+        </v-flex>
+
+
+
+      </v-layout>
 
     </v-container>
   </div>
@@ -56,6 +95,7 @@ export default {
 <style lang="scss">
     .headline {
       height: 100px;
+      overflow: hidden;
     }
     a {
       text-decoration: none;

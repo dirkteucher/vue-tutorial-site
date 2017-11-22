@@ -8,6 +8,9 @@ Vue.use(Router)
 import home from '../pages/home.vue'
 import declarativeRendering from '../pages/declarative-rendering.vue'
 import loops from '../pages/loops.vue'
+import bindingAttributesClassnames from '../pages/binding-attributes-classnames.vue'
+import computedProperties from '../pages/computed-properties.vue'
+import slots from '../pages/slots.vue'
 
 export default new Router({
   routes: [
@@ -25,6 +28,21 @@ export default new Router({
       path: '/loops',
       name: 'loops',
       component: loops
+    },
+    {
+      path: '/bindingAttributesClassnames',
+      name: 'bindingAttributesClassnames',
+      component: bindingAttributesClassnames
+    },
+    {
+      path: '/computedProperties',
+      name: 'computedProperties',
+      component: computedProperties
+    },
+    {
+      path: '/slots',
+      name: 'slots',
+      component: slots
     }
   ]
 })
