@@ -7,6 +7,24 @@
 		<v-container grid-list-md >
 			<v-layout row wrap>
 				<v-flex xs12>
+
+				<h3>Attach a data variable called message using the vue template </h3>
+				<p class="blue-grey darken-2 white--text">
+<pre>
+	&#123; &#123; message }}
+</pre>
+				</p>
+
+
+				<h3>Then add v-model"message" as an attribute to an input field.</h3>
+				<p class="blue-grey darken-2 white--text">
+					This will keep track of the data as it changes.
+<pre>
+			&#60;v-text-field	class="input-group--focused" v-model="message"></v-text-field>
+</pre>
+				</p>
+
+
 					<h1> As you type into the input box below the message will update.</h1>
 					<div>
 						{{ message }}
@@ -37,7 +55,7 @@ export default {
   name: 'declarative-rendering',
   data () {
     return {
-	  message: ''
+	  message: 'message'
     }
   }
 }
