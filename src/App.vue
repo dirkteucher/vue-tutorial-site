@@ -53,5 +53,12 @@ p {
     font-size: 1.2rem;
 }
 
+pre
+{
+    -moz-tab-size: 2;
+    -o-tab-size:   2;
+    tab-size:      2;
+}
+
 
 </style>
