@@ -12,6 +12,7 @@ import bindingAttributesClassnames from '../pages/binding-attributes-classnames.
 import computedProperties from '../pages/computed-properties.vue'
 import slots from '../pages/slots.vue'
 import axios from '../pages/axios.vue'
+import filters from '../pages/filters.vue'
 
 export default new Router({
   routes: [
@@ -49,6 +50,11 @@ export default new Router({
       path: '/axios',
       name: 'axios',
       component: axios
+    },
+    {
+      path: '/filters',
+      name: 'filters',
+      component: filters
     }
   ]
 })
