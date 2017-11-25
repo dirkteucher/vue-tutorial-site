@@ -13,6 +13,7 @@ import computedProperties from '../pages/computed-properties.vue'
 import slots from '../pages/slots.vue'
 import axios from '../pages/axios.vue'
 import filters from '../pages/filters.vue'
+import vModel from '../pages/v-model-2-way-binding.vue';
 
 export default new Router({
   routes: [
@@ -55,6 +56,11 @@ export default new Router({
       path: '/filters',
       name: 'filters',
       component: filters
+    },
+    {
+      path: '/vModel',
+      name: 'vModel',
+      component: vModel
     }
   ]
 })

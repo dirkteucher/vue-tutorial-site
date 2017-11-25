@@ -99,6 +99,17 @@
         </v-flex>
 
 
+        <v-flex xs6 sm3>
+          <router-link to="/vModel">
+            <v-card color="blue-grey darken-2" class="white--text">
+              <v-card-title primary-title>
+                <div class="headline">v-model (2 way data binding)</div>
+              </v-card-title>
+            </v-card>
+          </router-link>
+        </v-flex>
+
+
 
       </v-layout>
     </v-container>
