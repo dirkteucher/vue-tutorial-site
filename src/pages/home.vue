@@ -109,6 +109,19 @@
           </router-link>
         </v-flex>
 
+      </v-layout>
+
+      <v-layout row wrap>
+
+        <v-flex xs6 sm3>
+          <router-link to="/watch">
+            <v-card color="blue-grey darken-2" class="white--text">
+              <v-card-title primary-title>
+                <div class="headline">Watch</div>
+              </v-card-title>
+            </v-card>
+          </router-link>
+        </v-flex>
 
 
       </v-layout>

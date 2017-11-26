@@ -13,7 +13,8 @@ import computedProperties from '../pages/computed-properties.vue'
 import slots from '../pages/slots.vue'
 import axios from '../pages/axios.vue'
 import filters from '../pages/filters.vue'
-import vModel from '../pages/v-model-2-way-binding.vue';
+import vModel from '../pages/v-model-2-way-binding.vue'
+import watch from '../pages/watch.vue'
 
 export default new Router({
   routes: [
@@ -61,6 +62,11 @@ export default new Router({
       path: '/vModel',
       name: 'vModel',
       component: vModel
+    },
+    {
+      path: '/watch',
+      name: 'watch',
+      component: watch
     }
   ]
 })
