@@ -4,16 +4,18 @@
 	style="margin: auto;"
 	class="grey lighten-3"
 	>
-	<v-toolbar color="light-blue">
-		<!-- <v-toolbar-side-icon class="white--text"></v-toolbar-side-icon> -->
-		<v-toolbar-title class="white--text"><slot name="headerTitle">Vue tutorials</slot></v-toolbar-title>
-		<v-spacer></v-spacer>
-		<router-link to="/">
-			<v-btn icon>
-			<v-icon>home</v-icon>
-			</v-btn>
-		</router-link>
-	</v-toolbar>
+	<router-link to="/">
+		<v-toolbar color="light-blue">
+			<!-- <v-toolbar-side-icon class="white--text"></v-toolbar-side-icon> -->
+			<v-toolbar-title class="white--text"><slot name="headerTitle">Vue tutorials</slot></v-toolbar-title>
+			<v-spacer></v-spacer>
+		
+				<v-btn icon>
+				<v-icon>home</v-icon>
+				</v-btn>
+		
+		</v-toolbar>
+	</router-link>
 
 	</div>
 </template>

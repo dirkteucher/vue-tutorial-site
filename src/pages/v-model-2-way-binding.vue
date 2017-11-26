@@ -9,9 +9,9 @@
 				<v-flex xs12>
           <h1>Two way data binding with v-model</h1>
 
-					<p>If we want Vue to continuously keep an eye on a variable that might be used in multiple places
+					<h3>If we want Vue to continuously keep an eye on a variable that might be used in multiple places
 						in the app then we could use v-model="variable-name"
-					</p>
+					</h3>
 
 				
 						<p class="blue-grey darken-2 white--text">
@@ -31,7 +31,6 @@ export default {
     }
   }
 }
-</script>
 </pre>
 						</p>
 

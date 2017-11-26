@@ -7,8 +7,16 @@
 		<v-container grid-list-md >
 			<v-layout row wrap>
 				<v-flex xs12>
-					<h1> Default.</h1>
-					
+ 					<h3>Example</h3>	
+
+					<p>Example</p>
+
+				
+						<p class="blue-grey darken-2 white--text">
+<pre>
+&#60;input type="text">
+</pre>
+						</p>					
 				</v-flex>
 			</v-layout>
 
