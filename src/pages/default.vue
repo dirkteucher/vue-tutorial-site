@@ -23,8 +23,8 @@
 			<v-layout row wrap>
 				<v-flex xs5  >
 					<div>
-						<a href="https://github.com/dirkteucher/vue-tutorial-site/blob/master/src/pages/declarative-rendering.vue" target="_blank">
-							<v-btn color="green white--text">default</v-btn>
+						<a href="https://github.com/dirkteucher/vue-tutorial-site/blob/master/src/pages/default.vue" target="_blank">
+							<v-btn color="green white--text">GET CODE- </v-btn>
 						</a>
 
 					</div>

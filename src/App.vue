@@ -46,10 +46,10 @@ a {
 }
 
 p {
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.82);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.82);
     margin: 20px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 3px;
     font-size: 1.2rem;
 }
 

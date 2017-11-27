@@ -20,43 +20,9 @@
 &#60;div class="box" :style="progressBar">&#60;/div>
 </pre>
 						</p>		
-						<p class="blue-grey darken-2 white--text">
-<pre>
-  name: 'default',
-  data () {
-    return {
-		bcolor: "blue",
-		progressBarWidth: '1'
-    }
-	},
-	computed: {
-		progressBar: function(){
-			return {
-				width: this.progressBarWidth+"%"
-			}
-		}
-	},
-	mounted: function(){
-		var vueLocal = this; 
-		var timer = 1;
-		function increaseProgressBarWidth(){
-			if(timer<100){
-				timer = timer+1;
-				vueLocal.progressBarWidth = timer;
-			}
-
-		setTimeout(function(){
-			increaseProgressBarWidth();
-		},10);
-
-		}
-		increaseProgressBarWidth();
-
-	}
-}
-</pre>
-						</p>				
+			
 				</v-flex>
+				<iframe height='265' scrolling='no' title='vuejs progress bar' src='//codepen.io/dirkteucher/embed/NwBZme/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/dirkteucher/pen/NwBZme/'>vuejs progress bar</a> by Dirk Teucher (<a href='https://codepen.io/dirkteucher'>@dirkteucher</a>) on <a href='https://codepen.io'>CodePen</a></iframe>
 			</v-layout>
 
 			<v-layout row wrap>
