@@ -26,7 +26,7 @@
 
             <v-layout row wrap>
 				<v-flex xs12>
-                    <h3>2) Bind a class to this button and toggle it with a click event</h3>
+                    <h3>2) Bind a class to this button.</h3>
                     <p class="blue-grey darken-2 white--text">
     <pre>
     &#60;button class="blue white--text" :class="className">Simple class binding&#60;/button>
