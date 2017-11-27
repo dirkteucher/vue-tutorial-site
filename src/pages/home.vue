@@ -148,7 +148,51 @@
         </v-flex>
 
 
+
+        <v-flex xs6 sm3>
+          <router-link to="/ifExample">
+            <v-card color="blue-grey darken-2" class="white--text">
+              <v-card-title primary-title>
+                <div class="headline">if/else + v-show</div>
+              </v-card-title>
+            </v-card>
+          </router-link>
+        </v-flex>
+
       </v-layout>
+
+
+      <v-layout row wrap>
+
+        <v-flex xs6 sm3>
+          <router-link to="/lists">
+            <v-card color="blue-grey darken-2" class="white--text">
+              <v-card-title primary-title>
+                <div class="headline">Lists + push</div>
+              </v-card-title>
+            </v-card>
+          </router-link>
+        </v-flex>
+
+
+        <v-flex xs6 sm3>
+          <router-link to="/refs">
+            <v-card color="blue-grey darken-2" class="white--text">
+              <v-card-title primary-title>
+                <div class="headline">$refs - accessing HTML elements</div>
+              </v-card-title>
+            </v-card>
+          </router-link>
+        </v-flex>
+
+
+      </v-layout>
+
+
+
+
+
+
     </v-container>
   </div>
 </template>

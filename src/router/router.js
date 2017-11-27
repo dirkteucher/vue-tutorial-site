@@ -17,6 +17,9 @@ import vModel from '../pages/v-model-2-way-binding.vue'
 import watch from '../pages/watch.vue'
 import dynamicClasses from '../pages/dynamic-classes.vue'
 import progressBar from '../pages/progress-bar.vue'
+import ifExample from '../pages/if.vue'
+import lists from '../pages/lists.vue'
+import refs from '../pages/refs.vue'
 
 export default new Router({
   routes: [
@@ -79,6 +82,21 @@ export default new Router({
       path: '/progressBar',
       name: 'progressBar',
       component: progressBar
+    },
+    {
+      path: '/ifExample',
+      name: 'ifExample',
+      component: ifExample
+    },
+    {
+      path: '/lists',
+      name: 'lists',
+      component: lists
+    },
+    {
+      path: '/refs',
+      name: 'refs',
+      component: refs
     }
     
   ]
