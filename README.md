@@ -19,6 +19,9 @@ npm     = 5.3.0
 node    = 8.4.0
 vue cli = 2.9.1
 
+![](https://raw.githubusercontent.com/dirkteucher/vue-tutorial-site/master/current-look-of-app.png)
+
+
 The basic framework of this project was created using vue-cli with the following command:
 vue init webpack-simple vue-tutorial
 
