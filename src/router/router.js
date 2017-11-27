@@ -20,6 +20,7 @@ import progressBar from '../pages/progress-bar.vue'
 import ifExample from '../pages/if.vue'
 import lists from '../pages/lists.vue'
 import refs from '../pages/refs.vue'
+import componentsExample from '../pages/components.vue'
 
 export default new Router({
   routes: [
@@ -97,6 +98,11 @@ export default new Router({
       path: '/refs',
       name: 'refs',
       component: refs
+    },
+    {
+      path: '/componentsExample',
+      name: 'componentsExample',
+      component: componentsExample
     }
     
   ]
