@@ -16,6 +16,7 @@ import filters from '../pages/filters.vue'
 import vModel from '../pages/v-model-2-way-binding.vue'
 import watch from '../pages/watch.vue'
 import dynamicClasses from '../pages/dynamic-classes.vue'
+import progressBar from '../pages/progress-bar.vue'
 
 export default new Router({
   routes: [
@@ -73,6 +74,11 @@ export default new Router({
       path: '/dynamicClasses',
       name: 'dynamicClasses',
       component: dynamicClasses
+    },
+    {
+      path: '/progressBar',
+      name: 'progressBar',
+      component: progressBar
     }
     
   ]
