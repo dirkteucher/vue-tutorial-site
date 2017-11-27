@@ -1,6 +1,8 @@
 <template>
   <div>
-		<headermain>Vue Totorials- Filters</headermain>
+    		<headermain>
+				  <span slot="headerTitle">Vue Tutorials- Filters</span>
+		    </headermain>
 
 		<v-container grid-list-md >
 			<v-layout row wrap>

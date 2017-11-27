@@ -8,9 +8,17 @@
 
 			<v-layout row wrap>
 				<v-flex xs8>
-					<p class="blue-grey darken-2 white--text" >
+					<h3>
 						Here we will import the header component and slot custom information into it.
+					</h3>
+					<p class="blue-grey darken-2 white--text">
+<pre>
+&#60;headermain>
+	&#60;span slot="headerTitle">Vue Tutorials - Slots</span>
+&#60;/headermain>
+</pre>
 					</p>
+
 				</v-flex>
 			</v-layout>
 
@@ -20,7 +28,7 @@
 				<v-flex xs12>
 					<h3>Header</h3> 
 					<headermain>
-						<span slot="headerTitle">This is how named slots work</span>
+						<span slot="headerTitle">Vue Tutorials - Slots</span>
 					</headermain>
 				</v-flex>
 			</v-layout>
@@ -29,12 +37,11 @@
 				<v-flex xs8>
 					<p class="blue-grey darken-2 white--text" >
 						So now we can create components like a header that can be loaded in with one line of code and we can then 
-						very easily slot custom	content into the component where ever we want. For now this is how I will update the 
-						header title when we navigate from page to page.
+						very easily slot custom	content into the component where ever we want. 
 					</p>
 
 					<p class="blue-grey darken-2 white--text" >
-						This is very usefull but it does mean we need to understand what content the component requires as not 
+						This is very useful but it does mean we need to understand what content the component requires as not 
 						including the slot information can cause issues in some cases. 
 					</p>
 					<p class="blue-grey darken-2 white--text" >
