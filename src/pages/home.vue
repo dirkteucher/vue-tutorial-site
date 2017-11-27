@@ -124,6 +124,19 @@
         </v-flex>
 
 
+
+        <v-flex xs6 sm3>
+          <router-link to="/dynamicClasses">
+            <v-card color="blue-grey darken-2" class="white--text">
+              <v-card-title primary-title>
+                <div class="headline">Computed CSS</div>
+              </v-card-title>
+            </v-card>
+          </router-link>
+        </v-flex>
+
+
+
       </v-layout>
     </v-container>
   </div>
