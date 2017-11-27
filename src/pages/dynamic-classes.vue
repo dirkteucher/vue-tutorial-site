@@ -19,9 +19,8 @@
 				<v-flex xs12>
  					<h3>Click the red box below to toggle the color with computed methods (Complex CSS class management possible this way)</h3>
 						<div class="box" @click="changeColor = !changeColor" :class="divClasses"></div>
-					<h3>Example Code</h3>
-				
-					<iframe height='265' scrolling='no' title='vuejs dynamic classes' src='//codepen.io/dirkteucher/embed/aVjgWz/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/dirkteucher/pen/aVjgWz/'>vuejs dynamic classes</a> by Dirk Teucher (<a href='https://codepen.io/dirkteucher'>@dirkteucher</a>) on <a href='https://codepen.io'>CodePen</a></iframe>
+					
+					
 
 				</v-flex>
 			</v-layout>
@@ -31,13 +30,15 @@
 				<v-flex xs5  >
 					<div>
 						<a href="https://github.com/dirkteucher/vue-tutorial-site/blob/master/src/pages/dynamic-classes.vue" target="_blank">
-							<v-btn color="green white--text">GET CODE- dynamic-classes.vue </v-btn>
+							<v-btn color="green white--text">GET THIS CODE- dynamic-classes.vue </v-btn>
 						</a>
 
 					</div>
 				</v-flex>
 			</v-layout>
-
+			<h3>Another example in codepen</h3>
+				
+			<iframe height='265' scrolling='no' title='vuejs dynamic classes' src='//codepen.io/dirkteucher/embed/aVjgWz/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/dirkteucher/pen/aVjgWz/'>vuejs dynamic classes</a> by Dirk Teucher (<a href='https://codepen.io/dirkteucher'>@dirkteucher</a>) on <a href='https://codepen.io'>CodePen</a></iframe>
 
 		</v-container>
   </div>
