@@ -21,6 +21,7 @@ import ifExample from '../pages/if.vue'
 import lists from '../pages/lists.vue'
 import refs from '../pages/refs.vue'
 import componentsExample from '../pages/components.vue'
+import importScripts from '../pages/import-scripts.vue'
 
 export default new Router({
   routes: [
@@ -103,6 +104,11 @@ export default new Router({
       path: '/componentsExample',
       name: 'componentsExample',
       component: componentsExample
+    },
+    {
+      path: '/importScripts',
+      name: 'importScripts',
+      component: importScripts
     }
     
   ]

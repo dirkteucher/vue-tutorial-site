@@ -196,6 +196,16 @@
           </router-link>
         </v-flex>
 
+
+        <v-flex xs6 sm3>
+          <router-link to="/importScripts">
+            <v-card color="blue-grey darken-2" class="white--text">
+              <v-card-title primary-title>
+                <div class="headline">Importing scripts</div>
+              </v-card-title>
+            </v-card>
+          </router-link>
+        </v-flex>
       </v-layout>
 
 

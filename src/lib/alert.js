@@ -1,0 +1,1 @@
+alert("An external script has been added to this component/page");
