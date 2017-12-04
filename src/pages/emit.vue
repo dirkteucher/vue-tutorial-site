@@ -24,7 +24,7 @@
 					<p>
 						Parent
 <pre>
-&#60;appPropValidationChild :name="parentToChild"> &#60;/appPropValidationChild>
+&#60;appPropChild :name="parentToChild" @nameWasReset="name = $event"> &#60;/appPropChild>
 </pre>		
 					</p>	
 					<p>Child</p>	
@@ -32,11 +32,17 @@
 export default {
 	name: 'propsChild',
 	props: ["name"],
-data () {
-	return {
-	message: ''
+	data () {
+		return {
+		message: ''
+		}
+	},
+	methods:{
+		updateParentProp(){
+				this.name = "Message to parent from child and back to child again";
+				this.$emit('nameWasResetEvent', this.name);
+		}
 	}
-}
 }
 </pre>		
 
@@ -48,11 +54,11 @@ data () {
 			<v-layout row wrap>
 				<v-flex xs5  >
 					<div>
-						<a href="https://github.com/dirkteucher/vue-tutorial-site/blob/master/src/pages/props.vue" target="_blank">
-							<v-btn color="green white--text">GET CODE- props.vue</v-btn>
+						<a href="https://github.com/dirkteucher/vue-tutorial-site/blob/master/src/pages/emit.vue" target="_blank">
+							<v-btn color="green white--text">GET CODE- emit.vue</v-btn>
 						</a>
-						<a href="https://github.com/dirkteucher/vue-tutorial-site/blob/master/src/pages/props-child.vue" target="_blank">
-							<v-btn color="green white--text">GET CODE- props-child.vue</v-btn>
+						<a href="https://github.com/dirkteucher/vue-tutorial-site/blob/master/src/pages/emit-child.vue" target="_blank">
+							<v-btn color="green white--text">GET CODE- emit-child.vue</v-btn>
 						</a>
 
 
