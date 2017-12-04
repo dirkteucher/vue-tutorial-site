@@ -14,7 +14,6 @@
     >
       <v-layout row wrap>
 
-
         <v-flex xs6 sm3>
           <router-link to="/declarative-rendering">
             <v-card color="blue-grey darken-2" class="white--text">
@@ -24,8 +23,7 @@
             </v-card>
           </router-link>
         </v-flex>
-        
-
+      
         <v-flex xs6 sm3>
           <router-link to="/loops">
             <v-card color="blue-grey darken-2" class="white--text">
@@ -36,7 +34,6 @@
           </router-link>
         </v-flex>
         
-
         <v-flex xs6 sm3>
           <router-link to="/bindingAttributesClassnames">
             <v-card color="blue-grey darken-2" class="white--text">
@@ -46,8 +43,6 @@
             </v-card>
           </router-link>
         </v-flex>
-
-
 
         <v-flex xs6 sm3>
           <router-link to="/computedProperties">
@@ -111,6 +106,8 @@
 
       </v-layout>
 
+
+
       <v-layout row wrap>
 
         <v-flex xs6 sm3>
@@ -123,8 +120,6 @@
           </router-link>
         </v-flex>
 
-
-
         <v-flex xs6 sm3>
           <router-link to="/dynamicClasses">
             <v-card color="blue-grey darken-2" class="white--text">
@@ -135,8 +130,6 @@
           </router-link>
         </v-flex>
 
-
-
         <v-flex xs6 sm3>
           <router-link to="/progressBar">
             <v-card color="blue-grey darken-2" class="white--text">
@@ -146,8 +139,6 @@
             </v-card>
           </router-link>
         </v-flex>
-
-
 
         <v-flex xs6 sm3>
           <router-link to="/ifExample">
@@ -162,6 +153,7 @@
       </v-layout>
 
 
+
       <v-layout row wrap>
 
         <v-flex xs6 sm3>
@@ -174,7 +166,6 @@
           </router-link>
         </v-flex>
 
-
         <v-flex xs6 sm3>
           <router-link to="/refs">
             <v-card color="blue-grey darken-2" class="white--text">
@@ -184,7 +175,6 @@
             </v-card>
           </router-link>
         </v-flex>
-
 
         <v-flex xs6 sm3>
           <router-link to="/componentsExample">
@@ -196,7 +186,6 @@
           </router-link>
         </v-flex>
 
-
         <v-flex xs6 sm3>
           <router-link to="/importScripts">
             <v-card color="blue-grey darken-2" class="white--text">
@@ -206,14 +195,13 @@
             </v-card>
           </router-link>
         </v-flex>
+
       </v-layout>
 
 
 
-
-
-
       <v-layout row wrap>
+
         <v-flex xs6 sm3>
           <router-link to="/props">
             <v-card color="blue-grey darken-2" class="white--text">
@@ -234,8 +222,25 @@
           </router-link>
         </v-flex>
 
+        <v-flex xs6 sm3>
+          <router-link to="/propsValidation">
+            <v-card color="blue-grey darken-2" class="white--text">
+              <v-card-title primary-title>
+                <div class="headline">Props - validation (strict) </div>
+              </v-card-title>
+            </v-card>
+          </router-link>
+        </v-flex>
 
-
+        <v-flex xs6 sm3>
+          <router-link to="/emit">
+            <v-card color="blue-grey darken-2" class="white--text">
+              <v-card-title primary-title>
+                <div class="headline">Props - emit $event </div>
+              </v-card-title>
+            </v-card>
+          </router-link>
+        </v-flex>
 
       </v-layout>
 

@@ -24,6 +24,7 @@ import componentsExample from '../pages/components.vue'
 import importScripts from '../pages/import-scripts.vue'
 import props from '../pages/props.vue'
 import propsValidation from '../pages/props-validation.vue'
+import emit from '../pages/emit.vue'
 
 export default new Router({
   routes: [
@@ -121,6 +122,11 @@ export default new Router({
       path: '/propsValidation',
       name: 'propsValidation',
       component: propsValidation
+    },
+    {
+      path: '/emit',
+      name: 'emit',
+      component: emit
     }
     
   ]
