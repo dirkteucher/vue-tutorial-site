@@ -46,8 +46,8 @@ a {
 }
 
 p {
-    font-size: 1.2rem;
-	padding:5px;
+    font-size: 1.3rem;
+	padding-top:15px;
 }
 
 pre
@@ -55,6 +55,9 @@ pre
     -moz-tab-size: 2;
     -o-tab-size:   2;
     tab-size:      2;
+	background-color: #292929;
+    color: #fff;
+	padding: 20px;
 }
 
 
