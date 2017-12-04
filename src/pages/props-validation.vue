@@ -77,7 +77,7 @@ export default {
 
 <style scoped>
 	.parent {
-		background-color:blue;
+		background-color:#bdffe1;
 		color: black;
 		padding: 50px;
 
