@@ -15,6 +15,26 @@
 							<appPropChild :name="parentToChild"></appPropChild>
 					</div>
 				
+					<p>
+						Parent
+<pre>
+&#60;appPropValidationChild :name="parentToChild"> &#60;/appPropValidationChild>
+</pre>		
+					</p>	
+					<p>Child</p>	
+<pre>
+export default {
+	name: 'propsChild',
+	props: ["name"],
+data () {
+	return {
+	message: ''
+	}
+}
+}
+</pre>		
+
+
 				</v-flex>
 			</v-layout>
 
@@ -28,6 +48,7 @@
 						<a href="https://github.com/dirkteucher/vue-tutorial-site/blob/master/src/pages/props-child.vue" target="_blank">
 							<v-btn color="green white--text">GET CODE- props-child.vue</v-btn>
 						</a>
+
 
 					</div>
 				</v-flex>

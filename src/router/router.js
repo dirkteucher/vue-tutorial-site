@@ -23,6 +23,7 @@ import refs from '../pages/refs.vue'
 import componentsExample from '../pages/components.vue'
 import importScripts from '../pages/import-scripts.vue'
 import props from '../pages/props.vue'
+import propsValidation from '../pages/props-validation.vue'
 
 export default new Router({
   routes: [
@@ -115,6 +116,11 @@ export default new Router({
       path: '/props',
       name: 'props',
       component: props
+    },
+    {
+      path: '/propsValidation',
+      name: 'propsValidation',
+      component: propsValidation
     }
     
   ]
