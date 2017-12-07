@@ -25,6 +25,7 @@ import importScripts from '../pages/import-scripts.vue'
 import props from '../pages/props.vue'
 import propsValidation from '../pages/props-validation.vue'
 import emit from '../pages/emit.vue'
+import dynamicComponents from '../pages/dynamic-components.vue'
 
 export default new Router({
   routes: [
@@ -127,6 +128,11 @@ export default new Router({
       path: '/emit',
       name: 'emit',
       component: emit
+    },
+    {
+      path: '/dynamicComponents',
+      name: 'dynamicComponents',
+      component: dynamicComponents
     }
     
   ]
