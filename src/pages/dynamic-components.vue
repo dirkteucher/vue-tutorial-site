@@ -12,7 +12,9 @@
 						<v-btn color="blue white--text" @click="selectedComponent='axios'">Axios</v-btn>
 						<v-btn color="blue white--text" @click="selectedComponent='refs'">Refs</v-btn>
 						<v-btn color="blue white--text" @click="selectedComponent='componentsExample'">Component Example</v-btn>
-				
+						<keep-alive><!--Keep alive stops the component from being deystroyed when navigating away.-->
+								<component :is="selectedComponent"></component>
+						</keep-alive>
 				</v-flex>
 			</v-layout>
 
