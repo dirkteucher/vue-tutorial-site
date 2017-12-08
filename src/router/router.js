@@ -26,6 +26,7 @@ import props from '../pages/props.vue'
 import propsValidation from '../pages/props-validation.vue'
 import emit from '../pages/emit.vue'
 import dynamicComponents from '../pages/dynamic-components.vue'
+import forms from '../pages/forms.vue'
 
 export default new Router({
   routes: [
@@ -133,6 +134,11 @@ export default new Router({
       path: '/dynamicComponents',
       name: 'dynamicComponents',
       component: dynamicComponents
+    },
+    {
+      path: '/forms',
+      name: 'forms',
+      component: forms
     }
     
   ]
