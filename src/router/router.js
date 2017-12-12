@@ -28,6 +28,7 @@ import emit from '../pages/emit.vue'
 import dynamicComponents from '../pages/dynamic-components.vue'
 import forms from '../pages/forms.vue'
 import directives from '../pages/directives.vue'
+import transitionSimple from '../pages/transition-simple.vue'
 
 export default new Router({
   routes: [
@@ -145,6 +146,11 @@ export default new Router({
       path: '/directives',
       name: 'directives',
       component: directives
+    },
+    {
+      path: '/transitionSimple',
+      name: 'transitionSimple',
+      component: transitionSimple
     }
     
   ]
