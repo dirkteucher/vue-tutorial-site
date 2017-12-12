@@ -288,8 +288,33 @@
           </router-link>
         </v-flex>
 
+      </v-layout>
+
+
+      <v-layout row-wrap>
+
+        <v-flex xs6 sm3>
+          <router-link to="/animationSimple">
+            <v-card color="blue-grey darken-2" class="white--text">
+              <v-card-title primary-title>
+                <div class="headline">Simple Animation</div>
+              </v-card-title>
+            </v-card>
+          </router-link>
+        </v-flex>
+        
+        <v-flex xs6 sm3>
+          <router-link to="/animationDynamic">
+            <v-card color="blue-grey darken-2" class="white--text">
+              <v-card-title primary-title>
+                <div class="headline">Dynamic Animations</div>
+              </v-card-title>
+            </v-card>
+          </router-link>
+        </v-flex>
         
       </v-layout>
+
     </v-container>
   </div>
 </template>

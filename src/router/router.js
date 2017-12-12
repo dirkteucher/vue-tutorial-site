@@ -29,6 +29,8 @@ import dynamicComponents from '../pages/dynamic-components.vue'
 import forms from '../pages/forms.vue'
 import directives from '../pages/directives.vue'
 import transitionSimple from '../pages/transition-simple.vue'
+import animationSimple from '../pages/animation-simple.vue'
+import animationDynamic from '../pages/animation-dynamic.vue'
 
 export default new Router({
   routes: [
@@ -151,6 +153,16 @@ export default new Router({
       path: '/transitionSimple',
       name: 'transitionSimple',
       component: transitionSimple
+    },
+    {
+      path: '/animationSimple',
+      name: 'animationSimple',
+      component: animationSimple
+    },
+    {
+      path: '/animationDynamic',
+      name: 'animationDynamic',
+      component: animationDynamic
     }
     
   ]
