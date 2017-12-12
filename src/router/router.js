@@ -31,6 +31,7 @@ import directives from '../pages/directives.vue'
 import transitionSimple from '../pages/transition-simple.vue'
 import animationSimple from '../pages/animation-simple.vue'
 import animationDynamic from '../pages/animation-dynamic.vue'
+import transitionAnimationGroup from '../pages/animation-transition-group.vue'
 
 export default new Router({
   routes: [
@@ -163,6 +164,11 @@ export default new Router({
       path: '/animationDynamic',
       name: 'animationDynamic',
       component: animationDynamic
+    },
+    {
+      path: '/transitionAnimationGroup',
+      name: 'transitionAnimationGroup',
+      component: transitionAnimationGroup
     }
     
   ]

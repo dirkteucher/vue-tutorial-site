@@ -14,10 +14,10 @@
 						<option value="someOtherCSS">Fade</option>
 					</select>
 					<v-btn color="blue white--text" @click="slideAnimation = !slideAnimation">Start </v-btn>
-					<transition :name="alertAnimation">
+					<transition :name="alertAnimation" mode="in-out">
 						<p  v-if="slideAnimation">
 							Select slide in or slide out
-						</p>					
+						</p>
 					</transition>
 					
 				
