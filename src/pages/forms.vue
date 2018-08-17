@@ -17,28 +17,28 @@
 					<div class="form-group">
 							<label for="email">Mail</label>
 							<input
-											type="text"
-											id="email"
-											class="form-control"
-											:value="userData.email"
-											@input="userData.email = $event.target.value">
+								type="text"
+								id="email"
+								class="form-control"
+								:value="userData.email"
+								@input="userData.email = $event.target.value">
 					</div>
 					<div class="form-group">
 							<label for="password">Password</label>
 							<input
-											type="password"
-											id="password"
-											class="form-control"
-											v-model.lazy="userData.password">
+								type="password"
+								id="password"
+								class="form-control"
+								v-model.lazy="userData.password">
 							<p>{{ userData.password }}</p>
 					</div>
 					<div class="form-group">
 							<label for="age">Age</label>
 							<input
-											type="number"
-											id="age"
-											class="form-control"
-											v-model="userData.age">
+								type="number"
+								id="age"
+								class="form-control"
+								v-model="userData.age">
 					</div>
 				</v-flex>
 			</v-layout>
@@ -64,17 +64,17 @@
 						<div class="form-group">
 								<label for="sendmail">
 										<input
-														type="checkbox"
-														id="sendmail"
-														value="SendMail"
-														v-model="sendMail"> Send Mail
+											type="checkbox"
+											id="sendmail"
+											value="SendMail"
+											v-model="sendMail"> Send Mail
 								</label>
 								<label for="sendInfomail">
 										<input
-														type="checkbox"
-														id="sendInfomail"
-														value="SendInfoMail"
-														v-model="sendMail"> Send Infomail
+											type="checkbox"
+											id="sendInfomail"
+											value="SendInfoMail"
+											v-model="sendMail"> Send Infomail
 								</label><!-- Also show for single checkbox with true/ false -->
 						</div>
 				</v-flex>
@@ -86,17 +86,27 @@
 				<v-flex xs12>
 					<label for="male">
 							<input
-											type="radio"
-											id="male"
-											value="Male"
-											v-model="gender"> Male
+								name="test"
+								type="radio"
+								id="male"
+								value="Male"
+								v-model="gender"> Male
 					</label>
 					<label for="female">
 							<input
-											type="radio"
-											id="female"
-											value="Female"
-											v-model="gender"> Female
+								name="test"
+								type="radio"
+								id="female"
+								value="Female"
+								v-model="gender"> Female
+					</label>
+					<label for="neutral">
+							<input
+								name="test"
+								type="radio"
+								id="neutral"
+								value="neutral"
+								v-model="gender"> Neutral
 					</label>
 				</v-flex>
 			</v-layout>
@@ -106,12 +116,13 @@
 				<v-flex xs12>
 					<label for="priority">Priority</label>
 					<select
-									id="priority"
-									class="form-control"
-									v-model="selectedPriority">
+						id="priority"
+						class="form-control"
+						v-model="selectedPriority">
 							<option
-											v-for="priority in priorities"
-											>{{ priority }}</option>
+								v-for="priority in priorities"
+								>{{ priority }}
+							</option>
 					</select>
 				</v-flex>
 			</v-layout>
@@ -184,7 +195,7 @@
                 },
                 message: 'A new Text',
                 sendMail: [],
-                gender: 'Male',
+                gender: [],
                 selectedPriority: 'High',
                 priorities: ['High', 'Medium', 'Low'],
                 dataSwitch: true,

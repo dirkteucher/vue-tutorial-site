@@ -27,6 +27,11 @@ import propsValidation from '../pages/props-validation.vue'
 import emit from '../pages/emit.vue'
 import dynamicComponents from '../pages/dynamic-components.vue'
 import forms from '../pages/forms.vue'
+import directives from '../pages/directives.vue'
+import transitionSimple from '../pages/transition-simple.vue'
+import animationSimple from '../pages/animation-simple.vue'
+import animationDynamic from '../pages/animation-dynamic.vue'
+import transitionAnimationGroup from '../pages/animation-transition-group.vue'
 
 export default new Router({
   routes: [
@@ -139,6 +144,31 @@ export default new Router({
       path: '/forms',
       name: 'forms',
       component: forms
+    },
+    {
+      path: '/directives',
+      name: 'directives',
+      component: directives
+    },
+    {
+      path: '/transitionSimple',
+      name: 'transitionSimple',
+      component: transitionSimple
+    },
+    {
+      path: '/animationSimple',
+      name: 'animationSimple',
+      component: animationSimple
+    },
+    {
+      path: '/animationDynamic',
+      name: 'animationDynamic',
+      component: animationDynamic
+    },
+    {
+      path: '/transitionAnimationGroup',
+      name: 'transitionAnimationGroup',
+      component: transitionAnimationGroup
     }
     
   ]
